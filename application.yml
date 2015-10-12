@@ -33,3 +33,6 @@ eureka:
       instanceId: ${instance.guid}:${spring.application.name}:${server.port:8080}
     hostname: ${cf.instance.ip}
     nonSecurePort: ${cf.instance.port}
+security:
+  basic:
+    enabled: false
